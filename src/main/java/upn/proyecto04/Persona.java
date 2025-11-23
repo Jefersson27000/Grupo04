@@ -14,5 +14,6 @@ public class Persona {
        private String apellido;
        private int edad;
        private String telefono;
+       private String correo;
     
 }
