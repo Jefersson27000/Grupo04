@@ -76,6 +76,11 @@ public class Persona {
     public void mostrarDatos() {
     System.out.println("Nombre: " + nombre);
 }
-
-    
+  
+    public int calcularEdad(int edad) {
+    return edad * 12;
+}
+     public void mostrarDatos(String extra) {
+        System.out.println("Datos: " + nombre + " " + extra);
+    }
 }
