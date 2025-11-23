@@ -4,15 +4,10 @@
  */
 package upn.proyecto04;
 
-/**
- *
- * @author Admin
- */
-public class Persona {
-       
-       private String nombre;
-       private String apellido;
-       private int edad;
-       private String telefono;
-    
+
+public class Principal {
+    public static void main(String[] args) {
+        
+        System.out.println("Clase Persona modificada desde persona");
+    }
 }
